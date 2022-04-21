@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "Sad Robot"
+date:   2020-02-06 12:00:00 +0800
+categories: University
+---
+## Global Game Jam 2020
+
+This will be a rather lengthy article, so if you would like this wrapped up in a bite-size amount scroll to the bottom to the TLDR section.
+
+After completing my second year of University and feeling confident in my skills as a programmer, I wanted to participate in a game jam. There was, however, one small problem. The event I was recommended to attend was not being hosted in Perth, WA. After trying to find someone who would be willing to host it and sadly, I could not find them. So, I took it upon myself to host one. Then after our event was approved, we found out SAE in Perth also got approved the same morning. This was a bit of a bummer as I would have loved to attend theirs.
+
+So overall, we had a great turn out of roughly 18 people who participated in making a game with 4 games being produced at our site. You can check them out over at https://globalgamejam.org/2020/jam-sites/murdoch-university-ggj2020.
+
+### Day 1
+
+We sat down at watched the 24-minute keynote provided by GGJ (Global Game Jam), and the theme was revealed. We were to make a game based on the theme repair. So people pitched a few ideas and finally our group of 7 was formed. We spent the first hour or so spitting out ideas and then narrowing down the scope of the project that was achievable by our group.
+
+We moved onto setting up our development environments and chose Unity as our engine because our artists had the most experience working with it. However, none of our programmers including myself, had any notable experience in Unity 2D development. We also set up a git repo and a Trello board for source control and task structure.
+
+Since we lacked experience in the Unity 2D engine, the programmers including myself, began researching how to write code that can interact with Unity while the artists began prepping everything we would need. I’d like to take a minute to mention that the 3 artists we had were incredible. Day 1 came to a quick end since the jam started at 5pm.
+
+### Day 2
+
+Day 1 was a bit of a mess; decisions were not being made, and communication was not super clear. I took this time to incorporate a SCRUM meeting and sat down and hashed out our jobs and prioritize work so that there was little to no downtime while people waited for others work.
+
+This probably was one of my worst days because I was battling the Unity physics system. I didn’t understand how the interaction between colliders and Unity’s rigid body system, and we were experiencing strange and abnormal behavior. Our story writer / level designer by this stage had finished the first 3 levels out of 5 and all of which used some form of moving platform. While we had a platform that could, the player object was unable to stick to it which made platforming more difficult and this needed to be rectified as it was a key part of our game.
+
+I battled with it for most of the day, and in the end, I had to handball this job off to another developer while I continued to work on the scene manager. Sadly, by the time we had a rough prototype of both of these systems we had to call it a day. Knowing that tomorrow we had less than 8 hours to finish a game, crunch time was upon us.
+
+### Day 3
+
+This was our most productive day as most of the art was imported in unity, and we could finally visualize what our scripts were doing. I quickly hashed out the final part of the scene loader, followed by some basic hazard elements. Then I tasked myself with working with one of the artists to actually build the levels and add the hazards into our scenes.
+
+Sadly, crunch time was over and before we knew it, we were out of time. While in theory, we had the basics of a game, we only achieved 70% of our scope.
+
+### Recap
+
+So, looking back over this and having some time to reflect on things we did wrong, things we did right and what we could have done better. Here are my thoughts on what needs to happen to run a successful team.
+
+Establish a team coordinator. While I sort of took up this role on Day 2, we should have established this officially. We were a large group and the time wasted on discussions over small things hurt our productivity. The reason I believe a team coordinator would have benefited our group would have been the ability to make decisive decisions and manage the tasks being performed.
+
+Proper naming conventions. While we agreed on the lower kebab case for our programming, this wasn’t fully implemented in the entire project, which made work tedious such as fixing syntax errors because we were unable to load a file due to one file being named “Phase1” followed by “PHASE2”. Had we set clear naming conventions, this would have mitigated this entirely.
+
+Understand your tools. While I had some minor experience in unity in dealing with 3D objects and the basics of the rendering pipeline. I had zero experience in 2D which made me feel like I had let my team down. Before going into the event, I figured we would be making a 2D game, and I should have spent more time researching and understanding how the 2D engine worked in Unity. Had I spent this time I would not have needed to spend the first few hours understanding how the 2D objects such as rigid body and colliders worked.
+
+However, for all the things that went wrong, there were things that went right.
+
+We tried to set up a Unity Collab environment; however, we found out that Unity hard caps collab environment to 3 people for free users. This was frustrating so we instead opted for git repo on GitHub which I felt was more beneficial in the end as Collab uses SVN which does not support branching. We used a simple master, develop and feature branches which were crucial for agile development.
+
+Our scope was easily achievable. Yes, we didn’t achieve our scope, and that’s a bitter pill to swallow. Looking back on it, we had very little scope creep, and the reason we didn’t achieve this was strictly because of strange interactions with the 2D Unity Engine which once sorted meant we could smash out our game.
+
+Passionate people produce better content. I felt our team had some amazing talent and produced some amazing content. I couldn’t be prouder of what we produced and what the other teams had produced. I can’t wait to attempt this again!
+
+### TL:DR
+
+I learned so much at my first Game Jam such as you should spend some time learning some tools prior to going in. Find people who share a similar passion to you and try to assign yourself a team coordinator. Ensure your using some form of task management (we used Trello and SCRUM framework). Also, a form of source control is crucial and finally, remember this is all meant to be in good fun.
