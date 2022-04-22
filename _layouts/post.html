@@ -5,7 +5,14 @@ layout: default
 
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
-
+{%- if page.image -%}
+  <center><img src="{{page.image}}" alt="" /></center>
+{%- endif -%}
+{%- if page.slideShow -%}
+<br>
+{% include slideShow.html images=page.slideShow %}
+<br>
+{%- endif -%}
 <div class="post-content e-content" itemprop="articleBody">
 {{ content }}
 </div>

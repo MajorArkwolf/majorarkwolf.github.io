@@ -1,10 +1,10 @@
 title: Peter Crabbe's Homepage
-logo: https://www.arkwolf.com/wp-content/uploads/2019/09/arklogo.png
+logo: /assets/img/arklogo.png
 email: webmail@arkwolf.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just another dev blog, about dev things.
 baseurl: "" 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://arkwolf.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MajorArkwolf
 github_username:  MajorArkwolf
 

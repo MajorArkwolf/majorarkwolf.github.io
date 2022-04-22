@@ -3,6 +3,7 @@ layout: post
 title:  "Akuma Shei"
 date:   2019-11-16 12:00:00 +0800
 categories: University
+image: /assets/img/aks.jpg
 ---
 ## Roguelike / Nethack
 ### ICT290 University Project

@@ -3,6 +3,7 @@ layout: post
 title:  "Industry Award for Akuma Shei"
 date:   2020-07-25 12:00:00 +0800
 categories: University
+image: /assets/img/award1.jpg
 ---
 # Akuma Shei
 ## Industry Selected Games Design and Programming Prize

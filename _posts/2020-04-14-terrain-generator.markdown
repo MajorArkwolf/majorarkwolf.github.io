@@ -3,8 +3,29 @@ layout: post
 title:  "Terrain Generator"
 date:   2020-04-14 12:00:00 +0800
 categories: University
+image: /assets/img/terraingenerator.png
+slideShow: 
+- /assets/img/terrain/1.png
+- /assets/img/terrain/2.png
+- /assets/img/terrain/3.png
+- /assets/img/terrain/4.png
+- /assets/img/terrain/5.png
+- /assets/img/terrain/8.png
+- /assets/img/terrain/10.png
+- /assets/img/terrain/11.png
+- /assets/img/terrain/14.png
+- /assets/img/terrain/15.png
+- /assets/img/terrain/16.png
+- /assets/img/terrain/17.png
+- /assets/img/terrain/18.png
+- /assets/img/terrain/19.png
+- /assets/img/terrain/20.png
+- /assets/img/terrain/21.png
+- /assets/img/terrain/22.png
+- /assets/img/terrain/23.png
 ---
 ## ICT397 University Project
+
 Everything shown was produced by myself and with some assistance from 3rd party libraries such as GLM (Mathematics library).
 
 I was tasked to produce a terrain generator for our ICT-397 Assignment. Due to issues in our past with fixed-pipeline OpenGL and being the only one in the group having experience with Modern OpenGL, it only made sense that I took on the task to produce something for our game engine. The renderer was also provided by myself in this demo and for the assignment. Above is a slider showing the progress, I will be referring to the images in that order on the problems I encountered and how I overcame them.
